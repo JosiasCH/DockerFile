@@ -21,6 +21,6 @@ Creación de un Dockerfile:
 
 Abrir un puerto para un contenedor de Docker: 
 
-sudo docker run -d -p 8081:80 --name sistoper -v $(pwd):/usr/local/apache2/htdocs httpd
+docker run -d -p 8080:80 --name so-demo mydocker-01
 
 docker ps
